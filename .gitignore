@@ -1,0 +1,6 @@
+# files to ignore while pushing to git
+tmp/*
+
+.ipynb_checkpoints/*
+
+*.pyc
