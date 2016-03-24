@@ -214,7 +214,7 @@ def moveCircle(id, pos, r, endpoints=None):
         e = list(endpoints)
     while e[0] > e[1]: e[1] = e[1] + 360
 
-    edit(id, ('start', e[0]), ('extent', e[1] - e[0]))
+    #edit(id, ('start', e[0]), ('extent', e[1] - e[0]))
     move_to(id, x0, y0)
 
 def edit(id, *args):
