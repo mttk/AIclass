@@ -2,4 +2,4 @@
 
 This is the repository for the code of the first lab assignment. You can find the instructions for the lab assignment in both Croatian and English in their folder [here](lab1/instructions/).
 
-<div style="text-align:center"><img src ="https://github.com/mttk/AIclass/blob/master/lab1/misc/DFS_example.png" /></div>
+![Depth first search](https://github.com/mttk/AIclass/blob/master/lab1/misc/DFS_example.png)
