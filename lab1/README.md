@@ -2,4 +2,4 @@
 
 This is the repository for the code of the first lab assignment. You can find the instructions for the lab assignment in both Croatian and English in their folder [here](lab1/instructions/).
 
-![Depth first search example](lab1/misc/DFS_example.png)
+![Depth first search example](misc/DFS_example.png)
