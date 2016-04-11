@@ -1,7 +1,7 @@
 
 """
-In search.py, you will implement generic search algorithms which are called by
-Pacman agents (in searchAgents.py).
+In pacard.py, you will implement the search algorithm  based on refutation resolution 
+which will lead Pacard through the cave of the evil GhostWumpus.
 """
 
 import util
