@@ -11,3 +11,5 @@ This repository will contain most of the code materials for the lab excercises i
 The notebook containing the excercises for learning Python basics.
 
 ### First lab assignment [Here](lab1/)
+
+### Second lab assignment [Here](lab2/)

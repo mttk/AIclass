@@ -31,8 +31,8 @@ def stateWeight(state):
     """
     To ensure consistency in exploring states, they will be sorted 
     according to a simple linear combination. 
-    The maps will never be 
-    larger than 20x20, and therefore this weighting will be consistent.
+    The maps will never be larger than 20x20, and therefore this 
+    weighting will be consistent.
     """
     x, y = state 
     return 20*x + y 
