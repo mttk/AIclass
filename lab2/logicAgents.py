@@ -237,5 +237,6 @@ class LogicSearchProblem(pacard.SearchProblem):
 
         for future in visitedStates[1:]: 
             path += search.pathBetween(current, future, visitedStates, self.gameState)
+            current = future
 
         return path
