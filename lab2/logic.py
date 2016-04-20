@@ -178,7 +178,7 @@ class Clause:
 
     def isRedundant(self, otherClauses):
         """
-        Check if a clause is a subset of another clause.
+        Check if a clause is a superset of another clause.
         """
         for clause in otherClauses:
             if self == clause: continue
