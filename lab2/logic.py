@@ -231,7 +231,7 @@ def resolution(clauses, goal):
 
 def removeRedundant(clauses, setOfSupport):
     """
-    Remove redundant clauses (clauses that are subsets of other clauses)
+    Remove redundant clauses (clauses that are supersets of other clauses)
     from the aforementioned sets. 
     Be careful not to do the operation in-place as you will modify the 
     original sets. (why?)
