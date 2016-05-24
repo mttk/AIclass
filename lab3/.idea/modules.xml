@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../classification/.idea/classification.iml" filepath="$PROJECT_DIR$/../classification/.idea/classification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../dectree/.idea/dectree.iml" filepath="$PROJECT_DIR$/../dectree/.idea/dectree.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/reinforcement.iml" filepath="$PROJECT_DIR$/.idea/reinforcement.iml" />
+    </modules>
+  </component>
+</project>
