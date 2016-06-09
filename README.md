@@ -15,3 +15,8 @@ The notebook containing the excercises for learning Python basics.
 ### Second lab assignment [Here](lab2/)
 
 ### Third lab assignment [Here](lab3/)
+
+### Numpy intro v0.01 [Notebook](numpy_intro/numpy_introduction.ipynb)
+
+### Fourth lab assignment [Here](lab4/)
+
