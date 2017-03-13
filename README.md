@@ -1,7 +1,7 @@
 # Artificial Intelligence
 #### Faculty of Electrical Engineering and Computing
 #### University of Zagreb
-#### Academic year 2015./2016.
+#### Academic year 2016./2017.
 http://www.fer.unizg.hr/predmet/umjint
 
 ## Code repository
@@ -12,11 +12,12 @@ The notebook containing the excercises for learning Python basics.
 
 ### First lab assignment [Here](lab1/)
 
-### Second lab assignment [Here](lab2/)
+### Academic year 2015./2016. archive [Here](AY2015-16/)
+[comment]: <> ### Second lab assignment [Here](lab2/)
 
-### Third lab assignment [Here](lab3/)
+[comment]: <> ### Third lab assignment [Here](lab3/)
 
-### Numpy intro v0.01 [Notebook](numpy_intro/numpy_introduction.ipynb)
+[comment]: <> ### Numpy intro v0.01 [Notebook](numpy_intro/numpy_introduction.ipynb)
 
-### Fourth lab assignment [Here](lab4/)
+[comment]: <> ### Fourth lab assignment [Here](lab4/)
 
