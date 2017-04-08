@@ -114,14 +114,14 @@ class Literal:
         """
         Check if a literal represents a deadly state
         """
-        return self.label in labels.DEADLY
+        return self.label in Labels.DEADLY
 
     def isWTP(self):
         """
         Check if a literal represents GhostWumpus, the Teleporter or 
         a poisoned pill
         """
-        return self.label in labels.WTP
+        return self.label in Labels.WTP
 
     def isSafe(self):
         """
@@ -208,6 +208,24 @@ class Clause:
         The representation of the object
         """
         return self.__str__()
+
+    def __key(self):
+        """
+        Return a unique key representing the literal at a given point
+        """
+        return tuple(sorted(list(self.literals)))
+
+    def __hash__(self):
+        """
+        Return the hash value - this operator overloads the hash(object) function.
+        """
+        return hash(self.__key())
+
+    def __eq__(first, second):
+        """
+        Check for equality - this operator overloads '=='
+        """
+        return first.__key() == second.__key()
 
 
 def resolution(clauses, goal):
