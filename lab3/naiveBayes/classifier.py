@@ -150,9 +150,9 @@ def readCommand(argv):
                       help=default('the TEST DATA for the model'),
                       metavar='TEST_DATA', default='stop_test')
     parser.add_option('-s','--smoothing',dest='smoothing', type='int',
-                      help='Laplace smoothing', default=0)
+                      help=default('Laplace smoothing'), default=0)
     parser.add_option('-l','--logtransform',dest='logTransform', type='int',
-                      help='Compute a log transformation of the joint probability', default=0)
+                      help=default('Compute a log transformation of the joint probability'), default=0)
     parser.add_option('-t', '--test_implementation', dest='runtests', type='int',
                       help='Disregard all previous arguments and check if the predicted values match the gold ones', default=0)
 

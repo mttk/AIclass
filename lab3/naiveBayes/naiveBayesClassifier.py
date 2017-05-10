@@ -1,8 +1,6 @@
 import util
 import math
 
-from dataLoader import * 
-
 class NaiveBayesClassifier(object):
     """
     See the project description for the specifications of the Naive Bayes classifier.
@@ -49,17 +47,25 @@ class NaiveBayesClassifier(object):
         guesses = []
         self.posteriors = [] # posterior probabilities are stored for later data analysis.
         
-        for datum in testData:
+        for instance in testData:
             if self.logTransform:
-                posterior = self.calculateLogJointProbabilities(datum)
+                posterior = self.calculateLogJointProbabilities(instance)
             else:
-                posterior = self.calculateJointProbabilities(datum)
+                posterior = self.calculateJointProbabilities(instance)
             guesses.append(posterior.argMax())
             self.posteriors.append(posterior)
         return guesses
 
 
-    def calculateJointProbabilities(self, datum):
+    def calculateJointProbabilities(self, instance):
+        """
+        Returns the joint distribution over legal labels and the instance.
+        Each probability should be stored in the joint counter, e.g.
+        Joint[3] = <Estimate of ( P(Label = 3, instance) )>
+
+        To get the list of all possible features or labels, use self.features and
+        self.legalLabels.
+        """
         joint = util.Counter()
 
         for label in self.legalLabels:
@@ -71,11 +77,11 @@ class NaiveBayesClassifier(object):
         return joint
 
 
-    def calculateLogJointProbabilities(self, datum):
+    def calculateLogJointProbabilities(self, instance):
         """
-        Returns the log-joint distribution over legal labels and the datum.
+        Returns the log-joint distribution over legal labels and the instance.
         Each log-probability should be stored in the log-joint counter, e.g.
-        logJoint[3] = <Estimate of log( P(Label = 3, datum) )>
+        logJoint[3] = <Estimate of log( P(Label = 3, instance) )>
 
         To get the list of all possible features or labels, use self.features and
         self.legalLabels.
