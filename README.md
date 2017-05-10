@@ -15,6 +15,8 @@ The notebook containing the excercises for learning Python basics.
 
 ### Second lab assignment [Here](lab2/)
 
+### Second lab assignment [Here](lab3/)
+
 ---------------------------------------------------------------------------------------------
 
 #### Academic year 2015./2016. archive [Here](AY2015-16/)
