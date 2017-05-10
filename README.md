@@ -15,7 +15,7 @@ The notebook containing the excercises for learning Python basics.
 
 ### Second lab assignment [Here](lab2/)
 
-### Second lab assignment [Here](lab3/)
+### Third lab assignment [Here](lab3/)
 
 ---------------------------------------------------------------------------------------------
 
