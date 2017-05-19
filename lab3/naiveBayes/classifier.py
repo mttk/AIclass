@@ -8,7 +8,7 @@ from dataLoader import loadDataset
 ## You can ignore this
 STATIC_RESULTS = {
     # dataset
-    'classifier_data/contest_training.tsv' : {
+    os.path.join('classifier_data','contest_training.tsv') : {
         # smoothing value
         0 : {
             # log transform
@@ -34,7 +34,7 @@ STATIC_RESULTS = {
         }
     },
     # dataset
-    'classifier_data/contest_test.tsv' : {
+    os.path.join('classifier_data','contest_test.tsv') : {
         # smoothing value
         0 : { 
             # log transform 
