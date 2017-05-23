@@ -7,19 +7,20 @@ import plotter
 import matplotlib.pyplot as plt
 import numpy as np
 import dataLoader
+import os, sys 
 
 ###
 #   Global constants, I/O paths
 ###
 
-SIN_TRAIN = './data/sine_train.txt'
-SIN_TEST = './data/sine_test.txt'
+SIN_TRAIN = os.path.join('data','sine_train.txt')
+SIN_TEST = os.path.join('data','sine_test.txt')
 
-RASTRIGIN_TRAIN = './data/rastrigin_train.txt'
-RASTRIGIN_TEST = './data/rastrigin_test.txt'
+RASTRIGIN_TRAIN = os.path.join('data','rastrigin_train.txt')
+RASTRIGIN_TEST = os.path.join('data','rastrigin_test.txt')
 
-ROSENBROCK_TRAIN = './data/rosenbrock_train.txt'
-ROSENBROCK_TEST = './data/rosenbrock_test.txt'
+ROSENBROCK_TRAIN = os.path.join('data','rosenbrock_train.txt')
+ROSENBROCK_TEST = os.path.join('data','rosenbrock_test.txt')
 
 if __name__ == '__main__':
 	# set the random seed for reproducibility of results
