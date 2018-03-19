@@ -1,7 +1,7 @@
 # Artificial Intelligence
 #### Faculty of Electrical Engineering and Computing
 #### University of Zagreb
-#### Academic year 2016./2017.
+#### Academic year 2017./2018.
 http://www.fer.unizg.hr/predmet/umjint
 
 ## Code repository
@@ -12,10 +12,6 @@ This repository will contain most of the code materials for the lab excercises i
 The notebook containing the excercises for learning Python basics.
 
 ### First lab assignment [Here](lab1/)
-
-### Second lab assignment [Here](lab2/)
-
-### Third lab assignment [Here](lab3/)
 
 ---------------------------------------------------------------------------------------------
 
