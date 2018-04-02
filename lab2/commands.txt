@@ -1,0 +1,3 @@
+python pacman.py -l miniWumpus -g WumpusGhost
+
+python pacman.py -l miniWumpus -p PacardAgent -a fn=miniWumpusSearch -g WumpusGhost
