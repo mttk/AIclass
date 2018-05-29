@@ -1,0 +1,19 @@
+# manual
+python gridworld.py -m
+python gridworld.py -m -n 0.5
+
+# value iteration
+python gridworld.py -a value -i 5
+
+# qlearning
+python gridworld.py -a q -k 5
+
+# epsilon-greedy
+python crawler.py
+
+# approximate qlearning
+python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumGrid
+python pacman.py -p ApproximateQAgent -a extractor=SimpleExtractor -x 50 -n 60 -l mediumClassic
+
+# alternative if there is an error about SimpleExtractor not being found
+python pacman.py -p ApproximateQAgent -a extractor=featureExtractors.SimpleExtractor -x 50 -n 60 -l mediumGrid
