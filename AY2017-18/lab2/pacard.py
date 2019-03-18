@@ -58,7 +58,7 @@ def miniWumpusSearch(problem):
     from game import Directions
     e = Directions.EAST 
     n = Directions.NORTH
-    return  [e, n, n]
+    return [e, n, n]
 
 def logicBasedSearch(problem):
     """
@@ -70,14 +70,14 @@ def logicBasedSearch(problem):
     print "Is the start a goal?", problem.isGoalState(problem.getStartState())
     print "Start's successors:", problem.getSuccessors(problem.getStartState())
 
-    print "Does the Wumpus's stench reach my spot?", 
-               \ problem.isWumpusClose(problem.getStartState())
+    print "Does the Wumpus's stench reach my spot?", \
+               problem.isWumpusClose(problem.getStartState())
 
-    print "Can I sense the chemicals from the pills?", 
-               \ problem.isPoisonCapsuleClose(problem.getStartState())
+    print "Can I sense the chemicals from the pills?", \
+               problem.isPoisonCapsuleClose(problem.getStartState())
 
-    print "Can I see the glow from the teleporter?", 
-               \ problem.isTeleporterClose(problem.getStartState())
+    print "Can I see the glow from the teleporter?", \
+               problem.isTeleporterClose(problem.getStartState())
     
     (the slash '\\' is used to combine commands spanning through multiple lines - 
     you should remove it if you convert the commands to a single line)
@@ -92,7 +92,7 @@ def logicBasedSearch(problem):
         * Memorize information, often and thoroughly. Dictionaries are your friends and 
         states (tuples) can be used as keys.
         * Keep track of the states you visit in order. You do NOT need to remember the
-        tranisitions - simply pass the visited states to the 'reconstructPath' method 
+        transitions - simply pass the visited states to the 'reconstructPath' method
         in the search problem. Check logicAgents.py and search.py for implementation.
     """
     # array in order to keep the ordering
