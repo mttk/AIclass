@@ -11,11 +11,17 @@ This repository will contain most of the code materials for the lab excercises i
 
 The notebook containing the excercises for learning Python basics.
 
+### Numpy intro v0.01 [Notebook](numpy_intro/)
+
 ### First lab assignment [Here](lab1/)
 
 ### Second lab assignment [Here](lab2/)
 
-### Second lab assignment [Here](lab3/)
+### Third lab assignment [Here](lab3/)
+
+
+### Fourth lab assignment [Here](lab3/)
+
 
 ---------------------------------------------------------------------------------------------
 
