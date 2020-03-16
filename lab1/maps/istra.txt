@@ -1,0 +1,22 @@
+#
+Pula
+Buzet
+Baderna: Višnjan,13 Poreč,14 Pazin,19 Kanfanar,19
+Barban: Pula,28 Labin,15
+Buje: Umag,13 Grožnjan,8
+Buzet: Lupoglav,15 Motovun,18
+Grožnjan: Buje,8 Motovun,15 Višnjan,19
+Kanfanar: Baderna,19 Rovinj,18 Žminj,6 Vodnjan,29
+Labin: Barban,15 Lupoglav,42
+Lupoglav: Labin,42 Opatija,29 Pazin,23 Buzet,15
+Medulin: Pula,9
+Motovun: Buzet,18 Grožnjan,15 Pazin,20
+Opatija: Lupoglav,29
+Pazin: Baderna,19 Motovun,20 Žminj,17 Lupoglav,23
+Poreč: Baderna,14
+Pula: Vodnjan,12 Barban,28 Medulin,9
+Rovinj: Kanfanar,18
+Umag: Buje,13
+Višnjan: Grožnjan,19 Baderna,13
+Vodnjan: Kanfanar,29 Pula,12
+Žminj: Kanfanar,6 Pazin,17

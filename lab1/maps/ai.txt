@@ -1,0 +1,11 @@
+enroll_artificial_intelligence
+pass_course fail_course
+enroll_artificial_intelligence: fail_lab,1 complete_lab,4
+fail_lab: fail_lab,1 complete_lab,4 fail_course,20
+complete_lab: fail_continuous,1 pass_continuous,12
+pass_continuous: pass_course,1
+fail_continuous: fail_exam,1 pass_exam,16
+pass_exam: pass_course,1
+fail_exam: fail_course,20
+pass_course:
+fail_course:

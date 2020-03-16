@@ -1,0 +1,9 @@
+enroll_artificial_intelligence: 17
+fail_lab: 17
+complete_lab: 13
+pass_continuous: 1
+fail_continuous: 17
+pass_exam: 1
+fail_exam: 20
+pass_course: 0
+fail_course: 0
