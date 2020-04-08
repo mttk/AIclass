@@ -1,0 +1,6 @@
+water is true
+hot_water is true
+coffee is true
+hot_water is unknown
+coffee is unknown
+coffee is true

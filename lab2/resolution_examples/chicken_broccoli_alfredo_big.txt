@@ -1,0 +1,14 @@
+Pasta
+Broccoli
+Olive_oil
+Chicken
+Butter
+Flour
+Milk
+Cream
+Parmesan
+Parsley
+~Olive_oil v ~Chicken v Diced_chicken
+~Butter v ~Flour v ~Milk v ~Cream v ~Parmesan v Alfredo_sauce
+~Pasta v ~Diced_chicken v ~Alfredo_sauce v ~Broccoli v Chicken_broccoli_alfredo
+Chicken_broccoli_alfredo

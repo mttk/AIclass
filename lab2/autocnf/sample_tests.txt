@@ -1,0 +1,11 @@
+A v B
+A > B
+A = B
+A & B
+~(A > B)
+~(A = B)
+(C v D) > (~A = B)
+(C v D) > (~~~A = B)
+~(C v D) > (~A = B)
+~(~(C v D) > (~A = B))
+~~(~(C v D) > (~A = B))

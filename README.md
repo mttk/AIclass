@@ -9,6 +9,8 @@ This repository contains materials for the lab excercises in the Artificial Inte
 
 ### First lab assignment [Here](lab1/)
 
+### Second lab assignment [Here](lab2/)
+
 ---------------------------------------------------------------------------------------------
 
 #### Academic year 2015./2016. archive [Here](AY2015-16/)

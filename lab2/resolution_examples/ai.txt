@@ -1,0 +1,18 @@
+~Lab1 v Prolaz_labosi
+~Lab2 v Prolaz_labosi
+~Lab3 v Prolaz_labosi
+~Lab4 v Prolaz_labosi
+~MI_teorija v ~MI_pismeni v MI_prolaz
+~ZI_teorija v ~ZI_pismeni v ZI_prolaz
+~Prolaz_labosi v ~MI_prolaz v ~ZI_prolaz v Prolaz_kontinuirano
+~Prolaz_labosi v ~Ispitni_Rok1 v Prolaz_kontinuirano v Prolaz_rok
+~Prolaz_labosi v ~Ispitni_Rok2 v Prolaz_rok
+~Prolaz_kontinuirano v Prolaz_predmeta
+~Prolaz_rok v Prolaz_predmeta
+Lab1
+MI_teorija
+~MI_pismeni
+~ZI_teorija
+ZI_pismeni
+Ispitni_Rok1
+Prolaz_predmeta
