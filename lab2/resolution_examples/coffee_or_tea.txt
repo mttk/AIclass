@@ -1,0 +1,8 @@
+Water
+Heater
+Tea_bag
+Coffee_powder
+~Water V ~Heater V Hot_water
+~Coffee_powder V ~Hot_water V Coffee
+~Hot_water V Tea_bag V Tea
+Coffee V Tea
