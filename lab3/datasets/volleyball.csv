@@ -1,0 +1,15 @@
+weather,temperature,humidity,wind,play
+sunny,hot,high,weak,no
+sunny,hot,high,strong,no
+cloudy,hot,high,weak,yes
+rainy,comfortable,high,weak,yes
+rainy,cold,normal,weak,yes
+rainy,cold,normal,strong,no
+cloudy,cold,normal,strong,yes
+sunny,comfortable,high,weak,no
+sunny,cold,normal,weak,yes
+rainy,comfortable,normal,weak,yes
+sunny,comfortable,normal,strong,yes
+cloudy,comfortable,high,strong,yes
+cloudy,hot,normal,weak,yes
+rainy,comfortable,high,strong,no
